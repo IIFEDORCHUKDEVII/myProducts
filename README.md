@@ -16,19 +16,32 @@ This is a mobile application built with **React Native + TypeScript** that allow
 
 ## 🧠 Project Structure
 
-src/
-├── api/ # API configuration (e.g., Axios)
-├── constants/ # Static data (e.g., categories)
-├── hooks/ # Custom React hooks
-├── models/ # TypeScript interfaces (e.g., Product, Category)
-├── services/ # API service functions
-├── state/ # App state (Redux, Zustand, etc. - optional)
-├── ui/ # Reusable UI components (e.g., buttons, cards)
-├── viewmodels/ # Logic separation (MVVM pattern)
-├── views/
-│ ├── components/ # View-level components
-│ ├── icons/ # Local icon assets
-│ └── screens/ # Screens like ProductListScreen
+```
+└── 📁src
+    └── 📁api
+        └── apiClient.ts
+    └── 📁constants
+        └── colors.ts
+    └── 📁features
+        └── 📁products
+            └── 📁constants
+                └── categories.ts
+            └── 📁models
+                └── Product.ts
+            └── 📁services
+                └── productService.ts
+            └── 📁viewmodels
+                └── ProductViewModel.ts
+            └── 📁views
+                └── 📁components
+                    └── CategoriesSheet.tsx
+                    └── sheets.tsx
+                └── 📁icons
+                    └── filter.png
+                └── 📁screens
+                    └── ProductListScreen.tsx
+   
+```
 
 
 ---
@@ -72,9 +85,8 @@ yarn install
 npx react-native run-android
 # or
 npx react-native run-ios
-
+```
 ---
 
 👤 Author
-Artur Fedorchuk
-React Native Developer
+Artur Fedorchuk | React Native Developer
