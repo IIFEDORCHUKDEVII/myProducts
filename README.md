@@ -58,12 +58,10 @@ This ensures a clean separation of concerns, scalability, and easier maintenance
 
 ---
 
-📸 Screenshots
+## 📸 Screenshots
 
-- 🧾 Product List with Filter Button 
-<img src="./screen1.png" width="200" />
-- 📂 Category Sheet (Bottom Sheet) 
-<img src="./screen2.png" width="200" />
+- 🧾 Product List with Filter Button      📂 Category Sheet (Bottom Sheet) 
+ <img src="./screen1.png" width="200" /> <img src="./screen2.png" width="200" />
 
 ---
 
