@@ -74,15 +74,16 @@ This ensures a clean separation of concerns, scalability, and easier maintenance
 -  **react-native-actions-sheet** – Bottom sheet for category filter
 -  **axios** – Promise-based HTTP client
 
-## 🚀 Getting Started
-
 ---
+
+## 🚀 Getting Started
 
 ### 1. Clone the repository
 
 ```bash
 git clone https://github.com/your-username/products-app.git
 cd products-app
+```
 
 ### 2. Install dependencies
 
@@ -95,7 +96,7 @@ yarn install
 npx react-native run-android
 # or
 npx react-native run-ios
-```
+
 ---
 
 ## 👤 Author
