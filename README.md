@@ -84,22 +84,21 @@ This ensures a clean separation of concerns, scalability, and easier maintenance
 git clone https://github.com/your-username/products-app.git
 cd products-app
 ```
-
 ### 2. Install dependencies
 
+```bash
 npm install
-# or
+#or
 yarn install
-
+```
 ### 3. Run on device/emulator
 
+```bash
 npx react-native run-android
-# or
+#or
 npx react-native run-ios
-
+```
 ---
 
 ## 👤 Author
 Artur Fedorchuk | React Native Developer
-
----
