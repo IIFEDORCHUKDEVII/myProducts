@@ -88,5 +88,7 @@ npx react-native run-ios
 ```
 ---
 
-👤 Author
+## 👤 Author
 Artur Fedorchuk | React Native Developer
+
+---
