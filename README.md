@@ -58,6 +58,15 @@ This ensures a clean separation of concerns, scalability, and easier maintenance
 
 ---
 
+📸 Screenshots
+
+🧾 Product List with Filter Button
+<img src="./screen1.png" width="300" />
+📂 Category Sheet (Bottom Sheet)
+<img src="./screen2.png" width="300" />
+
+---
+
 ## 📦 Dependencies
 
 -  **@tanstack/react-query** – Data fetching and caching
